@@ -6,7 +6,6 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <Outlet />
       {/* EL OUTLET SON TODOS LOS COMPONENTES HIJOS (CHILDREN) DE LA ROUTA PADRE, DEPENDIENDO DEL PATH */}
       {/* SI ESTOY EN http://localhost:3000/crud, ENTONCES OUTLET VA A SER <CRUD /> */}
       <Outlet />
